@@ -21,4 +21,4 @@ colore = prompt("Inserisci il tuo colore preferito");
 // scrivi sulla pagina il nome cognome e colore preferito + 19
 // utilizza una funzione che faccia comparire in pagina la "password"
 
-document.getElementById('password').writeIN = nome + cognome + colore + "19";
+document.getElementById('password').innerHTML = nome + cognome + colore + "19";
